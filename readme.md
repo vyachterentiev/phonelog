@@ -1,4 +1,4 @@
-Установка 
+**Установка** 
 
 Устанавливаем через pip 
 pip install django 
@@ -8,7 +8,7 @@ django-admin startproject mysite djangotutorial
 
 manage.py - терминал утилита для управления проектом (https://docs.djangoproject.com/en/6.0/ref/django-admin/). В частности "python manage.py runserver". 
 
-Фундамент
+**Фундамент**
 
 urls.py - адреса страниц. ДЛя переменных адресов используется "/<int:i>", "<str:name>". При этом переменная передается во вьюшку, ее нужно принимать в качестве аргумента 
 
